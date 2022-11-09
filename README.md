@@ -73,9 +73,9 @@ Make sure that the URL ends with a forward slash "``/``" when pasting it.
 
 ## Note Before Proceeding
 This course project application may lack some features that can be added. Some optimizations already exist but the overall behavior can be improved.  
-After adding a new recipe you need to refetch the recipes for the changes to take effect. (Manage --> Fetch)  
-After deleting a recipe, save the changes to override the data in the database. (Manage --> Save)  
-The cart has a default of two items.
+After adding, editing, or deleting a recipe, you need to save manually in order for the changes to take effect in the database (Manage --> Save). Otherwise, the changes are only done locally.  
+You can add, edit, or delete a recipe without saving them then refetch them (Manage --> Fetch) and all the changes will be undone. (By refetching without saving, the new data will be overriden by the old data)  
+The shopping a default of two items.
 
 ## License
 - This project is [MIT](https://github.com/Hussein-AlSayyed/Recipe-Book/blob/main/LICENSE.md) licensed.
